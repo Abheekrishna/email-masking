@@ -9,7 +9,7 @@ const maskEmail = (email) => {
     const mask = "*".repeat(lengthOfSliced);
     const restElemenet = email.slice(pos-1);
     const output = email[0]+mask+restElemenet;
-    result.innerText = output;
+    result.innerText = `Masked email: ${output}`;
 }
 
 
